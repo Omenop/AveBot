@@ -1,0 +1,89 @@
+{
+  "bot": {
+    "mention": "Hello, I'm {name}. To see my commands, use {command}.",
+    "loading": "`⌛` | loading...",
+    "invaliduser": "Only {user} can use this interaction."
+  },
+  "commands": {
+    "config": {
+      "lang": {
+        "changed": "New language has been set."
+      }
+    },
+    "admin": {
+      "say": {
+        "title": "Successful",
+        "description": "Message sent in **{channel}**"
+      },
+      "nuke": {
+        "err1": "Please select a valid text channel for nuke.",
+        "err2": "An error occurred while logging the channel.",
+        "text": "Channel nuked!"
+      },
+      "embed": {
+        "color_err": "Invalid color",
+        "successfull": "Embed sent in {channel}"
+      }
+    },
+    "info": {
+      "memberCount": "There are **{members}** members in this server.",
+      "invite": {
+        "message": "Thank you for considering inviting me, you can find my invite link and support server in the buttons below",
+        "button1": "Invite",
+        "button2": "Support Server"
+      }
+    },
+    "utility": {
+      "avatar": {
+        "title": "Avatar of {userTag}",
+        "requestBy": "Request By: {userTag}",
+        "memberAvatarLabel": "Member Avatar"
+      },
+      "poll": {
+        "title": "Poll Question:",
+        "check_results": "Results",
+        "poll_created": "Poll created",
+        "already_voted": "You have already voted.",
+        "voted": "You've voted.",
+        "one": "Option 1:",
+        "two": "Option 2:",
+        "vote": "Vote",
+        "result_title": "Poll Results"
+      }
+    },
+    "helpmenu": {
+      "nocommand": "`❌` | No valid command",
+      "placeholder": "⚙ | Browse Categories",
+      "embed1": {
+        "title": "Help Menu | {name}",
+        "desc": "{name} is a multipurpose bot designed to enhance your Discord experience. With a wide range of commands and features, {name} can assist you in moderating your server, playing music, providing useful information, and much more. \n*To learn more about a specific command, simply type `/help <command>`.*",
+        "field1": "Categories",
+        "field2": {
+          "name": "__**Links**__",
+          "value": "[Invite]({invite})\n[Support Server]({server})"
+        }
+      },
+      "cat": {
+        "title": "{category} Commands",
+        "footer": "Page {page} of {pages}",
+        "field1": "Command: {name}",
+        "nocat": "No commands in this category"
+      }
+    },
+    "mod": {
+      "kickerr": "I cannot kick this member.",
+      "err1": "Unknown member",
+      "err2": "I cannot ban this member.",
+      "err3": "Error with banning",
+      "embed": {
+        "ban": "New Ban",
+        "kick": "New Kick",
+        "description": {
+          "one": "Member:",
+          "two": "Moderator:",
+          "three": "Reason:"
+        }
+      }
+    }    
+  }
+}

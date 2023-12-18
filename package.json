@@ -1,0 +1,59 @@
+{
+  "name": "avebot",
+  "version": "1.0.0",
+  "description": "AvaBot is a versatile and useful Discord bot that can perform multiple tasks and enhance your server's functionality.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "contributors": [
+    "NoBody (https://github.com/NoBody-UU)",
+    "Omenop (https://github.com/Omenop)"
+  ],
+  "keywords": [
+    "discord",
+    "bot",
+    "discordbot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoBody-UU/aveBot.git"
+  },
+  "author": "NoBody",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NoBody-UU/aveBot/issues"
+  },
+  "homepage": "https://github.com/NoBody-UU/aveBot#readme",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.44",
+    "cli-table": "^0.3.11",
+    "colors": "^1.4.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "i18n": "^0.15.1",
+    "mal-scraper": "^2.13.1",
+    "moment": "^2.29.4",
+    "mongoose": "^8.0.3",
+    "openai": "^4.22.1",
+    "taskwizard": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "imports": {
+    "#root/*": "./*",
+    "#handlers/*": "./src/Handlers/*",
+    "#commands/*": "./src/Commands/*",
+    "#events/*": "./src/Events/*",
+    "#utils/*": "./src/Utils/*",
+    "#models/*": "./src/Models/*",
+    "#src/*": "./src/*",
+    "#structures/*": "./src/Structures/*"
+  }
+}

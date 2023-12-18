@@ -1,0 +1,89 @@
+{
+	"bot": {
+		"mention": "Hola, soy {name}. Para ver mis comandos, usa {command}.",
+		"loading": "`⌛` | cargando...",
+		"invaliduser": "Solo {user} puede usar esta interacción."
+	},
+	"commands": {
+		"config": {
+			"lang": {
+				"changed": "Se ha establecido un nuevo idioma."
+			}
+		},
+		"admin": {
+			"say": {
+				"title": "Exitoso",
+				"description": "Mensaje enviado en **{channel}**."
+			},
+			"nuke": {
+				"err1": "Por favor, selecciona un canal de texto válido para la función nuke.",
+				"err2": "Ocurrió un error al registrar el canal.",
+				"text": "¡Canal nukeado!"
+			},
+			"embed": {
+				"color_err": "Color inválido",
+				"successfull": "Embed enviado en {channel}."
+			}
+		},
+		"info": {
+			"memberCount": "Hay **{members}** miembros en este servidor.",
+			"invite": {
+				"message": "Gracias por considerar invitarme. Puedes encontrar mi enlace de invitación y servidor de soporte en los botones de abajo.",
+				"button1": "Invitar",
+				"button2": "Servidor de Soporte"
+			}
+		},
+		"utility": {
+			"avatar": {
+				"title": "Avatar de {userTag}",
+				"requestBy": "Solicitado por: {userTag}",
+				"memberAvatarLabel": "Avatar del Miembro"
+			},
+			"poll": {
+				"title": "Pregunta de la Encuesta:",
+				"check_results": "Resultados",
+				"poll_created": "Encuesta creada",
+				"already_voted": "Ya has votado.",
+				"voted": "Has votado.",
+				"one": "Opción 1:",
+				"two": "Opción 2:",
+				"vote": "Votar",
+				"result_title": "Resultados de la Encuesta"
+			}
+		},
+		"helpmenu": {
+			"nocommand": "`❌` | No hay un comando válido.",
+			"placeholder": "⚙ | Explorar Categorías",
+			"embed1": {
+				"title": "Menú de Ayuda | {name}",
+				"desc": "{name} es un bot multipropósito diseñado para mejorar tu experiencia en Discord. Con una amplia variedad de comandos y características, {name} puede ayudarte a moderar tu servidor, reproducir música, proporcionar información útil y mucho más. \n*Para obtener más información sobre un comando específico, simplemente escribe `/help <comando>`.*",
+				"field1": "Categorías",
+				"field2": {
+					"name": "__**Enlaces**__",
+					"value": "[Invitar]({invite})\n[Servidor de Soporte]({server})"
+				}
+			},
+			"cat": {
+        "title": "Comandos de {category}",
+        "footer": "Pagina {page} de {pages}",
+        "field1": "Comando: {name}",
+				"nocat": "No hay comandos en esta categoría."
+      }
+		},
+		"mod": {
+			"kickerr": "No puedo expulsar a este miembro.",
+			"err1": "Miembro desconocido",
+			"err2": "No puedo prohibir a este miembro.",
+			"err3": "Error al prohibir",
+			"embed": {
+				"ban": "Nuevo Baneo",
+				"kick": "Nueva Expulsión",
+				"description": {
+					"one": "Miembro:",
+					"two": "Moderador:",
+					"three": "Motivo:"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{ 
+  "compilerOptions": {
+    "checkJs": false,
+    "isolatedModules": true,
+    "moduleResolution": "nodenext",
+    "module": "NodeNext",
+    "resolveJsonModule": true,
+    "resolvePackageJsonImports": true,
+    "target": "ES6",
+    "lib": [
+      "ES2021.String"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "#root/*": ["./*"],
+      "#handlers/*": ["./src/handlers/*"],
+      "#commands": ["./src/Commands/*"],
+      "#events": ["./src/Events/*"],
+      "#utils/*": ["./src/Utils/*"],
+      "#models/*": ["./src/Models/*"],
+      "#src/*": ["./src/*"],
+      "#structures/*": ["src/Structures/*"]
+    }
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
