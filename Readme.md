@@ -25,7 +25,7 @@ pnpm install
 
 - Rename `.env.example` to `.env` and fill in the values.
 - Go `./Settings/Config.js` and `./Settings/Categories.js` and Fill the values too.
-- Type `node .` or `pnpm start` to start the bot.
+- Type `node .` or `npm start` to start the bot.
 
 ## Prerequisites
 
