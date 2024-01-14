@@ -21,12 +21,6 @@ const categories = [
     image: "https://twemoji.maxcdn.com/v/latest/72x72/1f5de.png"
   },
   {
-    category: "Systems",
-    description: "Commands related to system functionalities and settings.",
-    emoji: "🛠",
-    image: "https://twemoji.maxcdn.com/v/latest/72x72/1f5a5.png"
-  },
-  {
     category: "UTILITY",
     description: "Utility commands that offer various helpful functionalities.",
     emoji: "🔧",
@@ -37,12 +31,6 @@ const categories = [
     description: "Commands for playing and managing music.",
     emoji: "🎶",
     image: "https://twemoji.maxcdn.com/v/latest/72x72/1f3b5.png"
-  },
-  {
-    category: "DEVELOPER",
-    description: "Commands intended for developer and debugging purposes.",
-    emoji: "🧪",
-    image: "https://media.discordapp.net/attachments/1110455368993230938/1110456391350624256/Bug_Hunter.png"
   }
 ];
 

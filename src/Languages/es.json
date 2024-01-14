@@ -64,25 +64,56 @@
 				}
 			},
 			"cat": {
-        "title": "Comandos de {category}",
-        "footer": "Pagina {page} de {pages}",
-        "field1": "Comando: {name}",
+				"title": "Comandos de {category}",
+				"footer": "Pagina {page} de {pages}",
+				"field1": "Comando: {name}",
 				"nocat": "No hay comandos en esta categoría."
-      }
+			}
 		},
 		"mod": {
 			"kickerr": "No puedo expulsar a este miembro.",
 			"err1": "Miembro desconocido",
 			"err2": "No puedo prohibir a este miembro.",
 			"err3": "Error al prohibir",
+			"err4": "Error: Usuario no encontrado",
+			"err5": "Error: Proporcione un canal válido.",
 			"embed": {
-				"ban": "Nuevo Baneo",
-				"kick": "Nueva Expulsión",
+				"ban": "Nuevo Ban",
+				"kick": "Nuevo Kick",
+				"warn": "Nueva Advertencia",
+				"warn-list": "Advertencias",
+				"warn-clean": "Limpiar Advertencias",
 				"description": {
 					"one": "Miembro:",
 					"two": "Moderador:",
 					"three": "Motivo:"
 				}
+			},
+			"channel": "Canal",
+			"has-been": "ha sido",
+			"by": "por:",
+			"reason": "Motivo no proporcionado",
+			"404-warnings": "No se encontraron advertencias.",
+			"warned": "Advertencia exitosa",
+			"clean-success": "Advertencias eliminadas con éxito para"
+		},
+		"nick": {
+			"err1": "Por favor, proporciona un nuevo apodo para establecer.",
+			"err2": "Acción no válida. Por favor, elige entre 'establecer' o 'reiniciar'.",
+			"err3": "Se produjo un error al procesar el comando de apodo. Por favor, inténtalo de nuevo más tarde.",
+			"new-nick": "Tu apodo se ha establecido como",
+			"nick-reset": "Tu apodo ha sido reiniciado."
+		},
+		"purge": {
+			"err1": "Error: Subcomando desconocido",
+			"err2": "Error: No se pudieron purgar los mensajes. Por favor, inténtalo de nuevo.",
+			"embed": {
+				"title": "Purga",
+				"title2": "Purga de Enlaces",
+				"description": "Purgado exitosamente",
+				"message": "mensajes",
+				"linkembed": "mensajes que contienen enlaces",
+				"userembed": "mensajes de"
 			}
 		}
 	}

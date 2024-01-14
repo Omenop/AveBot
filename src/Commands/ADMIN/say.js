@@ -2,6 +2,7 @@ import { ApplicationCommandOptionType, EmbedBuilder } from "discord.js";
 
 /**@type {import("#root/Types.js").Commands}*/
 const command = {
+  category: "ADMIN",
   name: "say",
   description: "Make the bot say something.",
   descriptionLocalizations: {
