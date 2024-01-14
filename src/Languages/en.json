@@ -75,15 +75,46 @@
       "err1": "Unknown member",
       "err2": "I cannot ban this member.",
       "err3": "Error with banning",
+      "err4": "Error: User not found",
+      "err5": "Error: Please provide a valid channel.",
       "embed": {
         "ban": "New Ban",
         "kick": "New Kick",
+        "warn": "New Warn",
+        "warn-list": "Warnings",
+        "warn-clean": "Clear Warns",
         "description": {
           "one": "Member:",
           "two": "Moderator:",
           "three": "Reason:"
         }
+      },
+      "channel": "Channel",
+      "has-been": "has been",
+      "by": "by:",
+      "reason": "Reason Not provided",
+      "404-warnings": "No warnings found.",
+      "warned": "Successfully warned",
+      "clean-success": "Successfully cleared warnings for"
+    },
+    "nick": {
+      "err1": "Please provide a new nickname to set.",
+      "err2": "Invalid action. Please choose either 'set' or 'reset'.",
+      "err3": "An error occurred while processing the nickname command. Please try again later.",
+      "new-nick": "Your nickname has been set to",
+      "nick-reset": "Your nickname has been reset."
+    },
+    "purge": {
+      "err1": "Error: Unknown subcommand",
+      "err2": "Error: Failed to purge messages. Please try again.",
+      "embed": {
+        "title": "Purge",
+        "title2": "Purge Links",
+        "description": "Successfully purged",
+        "message": "messages",
+        "linkembed": "messages containing links",
+        "userembed": "messages from"
       }
-    }    
+    }
   }
 }

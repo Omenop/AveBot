@@ -6,9 +6,9 @@ import emojis from "#root/Settings/Emojis.js";
 import Validations from "../Utils/Validations.js";
 
 /**
- * Bot CLient 
+ * Bot Client 
  */
-export default  class AveBot extends Client {
+export default class AveBot extends Client {
   constructor() {
     super({
       intents: [
@@ -25,19 +25,19 @@ export default  class AveBot extends Client {
       allowedMentions: {roles: [], users: [], repliedUser: false },
       failIfNotExists: true,
     });
-    
+
     /** @type {Collection<string, import("Types.d.ts").Commands>} */
     this.commands = new Collection();
 
     /** @type {Map<string, number>} */
-    this.cooldowns = new Map;
+    this.cooldowns = new Map();
 
     /**@type {Map<string, import("Types.d.ts").Buttons>} */
-    this.buttons = new Map;
+    this.buttons = new Map();
     /**@type {Map<string, import("Types.d.ts").SelectMenus>} */
-    this.menus = new Map;
+    this.menus = new Map();
     /**@type {Map<string, import("Types.d.ts").Modals>} */
-    this.modals = new Map;
+    this.modals = new Map();
 
     this.config = Config;
 
@@ -46,9 +46,10 @@ export default  class AveBot extends Client {
     this.emoji = emojis;
 
     this.logger = new AveLog();
-     // Unresolved promise error handler
+
+    // Unresolved promise error handler
     process.on('unhandledRejection', (reason, promise) => {
-     this.logger.error("UnHandled Rejection", reason, promise);
+      this.logger.error("UnHandled Rejection", reason, promise);
     });
 
     // Manejador de errores no capturados

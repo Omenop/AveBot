@@ -46,10 +46,9 @@ export default {
       "{users} Users",
     ],
     /**
-     * Tiempo en seguntos para el intervalos de cada mensaje de la presencia.
+     * Time in seconds for the intervals of each message of presence.
      * @type {number}
      */
     MESSAGES_TIME: 5
   },
-
 };
