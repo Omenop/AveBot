@@ -4,7 +4,7 @@ import { ActionRowBuilder, ApplicationCommandOptionType, ButtonBuilder, ButtonSt
 /**@type {import("Types.d.ts").Commands} */
 const command = {
   enabled: true,
-  category: "UTILIDADES",
+  category: "UTILITY",
   help: "HELP XD", 
   cooldown: 5,
   name: "help",
